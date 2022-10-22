@@ -98,7 +98,7 @@ class CameraXFragment : Fragment() {
             ContextCompat.getMainExecutor(requireActivity().applicationContext),
             object : ImageCapture.OnImageSavedCallback {
                 override fun onError(exc: ImageCaptureException) {
-                    Log.e(TAG, "Photo capture failed: ${exc.message}", exc)
+                  //  Log.e(TAG, "Photo capture failed: ${exc.message}", exc)
                 }
 
                 override fun
